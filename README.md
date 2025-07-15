@@ -197,7 +197,7 @@ Dự án bao gồm các tài liệu báo cáo:
 ## 🤝 Contributing
 
 Đây là đồ án cơ sở cá nhân. Mọi góp ý và đề xuất xin gửi qua:
-- Email: [email@student.hungvuong.edu.vn]
+- Email: [2205CT0035@dhv.edu.vn] or [huynhkhuanit@gmail.com]
 - Issues: [GitHub Issues](../../issues)
 
 ## 📄 License
