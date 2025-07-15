@@ -1,4 +1,4 @@
-# 🇻🇳 Việt Ngữ Thông Minh - Smart Vietnamese Learning App
+# Việt Ngữ Thông Minh - Smart Vietnamese Learning App - Đồ án cơ sở
 
 <div align="center">
 
