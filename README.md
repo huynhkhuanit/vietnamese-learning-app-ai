@@ -204,7 +204,7 @@ Dự án bao gồm các tài liệu báo cáo:
 
 ```
 MIT License - Dự án được phát triển cho mục đích học tập
-Copyright (c) 2024 [Tên sinh viên] - Trường ĐH Hùng Vương
+Copyright (c) 2024 [Huỳnh Văn Khuân] - Trường ĐH Hùng Vương
 ```
 
 ## 🙏 Lời cảm ơn
