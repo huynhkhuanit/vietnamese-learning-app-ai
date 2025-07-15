@@ -17,7 +17,7 @@
 
 ## 📋 Thông tin đồ án
 
-- **Tên đồ án**: Ứng dụng học ngôn ngữ tiếng Việt tích hợp AI
+- **Tên đồ án**: Đồ Án Cơ Sở
 - **Sinh viên thực hiện**: [Huỳnh Văn Khuân]
 - **MSSV**: [2205CT0035]
 - **Lớp**: [CT06PM]
