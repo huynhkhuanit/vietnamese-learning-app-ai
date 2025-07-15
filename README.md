@@ -220,7 +220,7 @@ Copyright (c) 2024 [Tên sinh viên] - Trường ĐH Hùng Vương
 
 **🏫 TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG TP. HỒ CHÍ MINH**
 
-*Khoa Công nghệ Thông tin - Đồ án cơ sở*
+*Khoa Kỹ Thuật Công Nghệ - Đồ án cơ sở*
 
 **⭐ Nếu dự án hữu ích, hãy cho một Star! ⭐**
 
