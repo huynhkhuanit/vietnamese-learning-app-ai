@@ -1,0 +1,83 @@
+library;
+
+class APIConfig {
+  // ===== CẤU HÌNH API CHO CHATBOT AI =====
+  // HƯỚNG DẪN SETUP:
+  // 1. Copy file này thành api_config.dart
+  // 2. Thay thế YOUR_API_KEY_HERE bằng API key thực của bạn
+  // 3. Chọn một trong hai provider: OpenAI hoặc Google Gemini
+
+  // OpenAI Configuration
+  static const String openaiApiKey = 'YOUR_OPENAI_API_KEY_HERE';
+  static const String openaiBaseUrl = 'https://api.openai.com/v1';
+
+  // Google Gemini Configuration  
+  static const String geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
+  static const String geminiBaseUrl =
+      'https://generativelanguage.googleapis.com/v1';
+
+  // Default model configurations
+  static const String openaiModel = 'gpt-3.5-turbo';
+  static const String geminiModel = 'gemini-1.5-flash';
+
+  // API request configurations
+  static const int maxTokens = 200;
+  static const double temperature = 0.7;
+  static const int timeoutSeconds = 30;
+
+  // Validation methods
+  static bool get isOpenAIConfigured {
+    return openaiApiKey.isNotEmpty &&
+        openaiApiKey != 'YOUR_OPENAI_API_KEY_HERE' &&
+        openaiApiKey.startsWith('sk-');
+  }
+
+  static bool get isGeminiConfigured {
+    return geminiApiKey.isNotEmpty &&
+        geminiApiKey != 'YOUR_GEMINI_API_KEY_HERE';
+  }
+
+  static bool get hasAnyApiKey {
+    return isOpenAIConfigured || isGeminiConfigured;
+  }
+
+  // Get available providers
+  static List<String> get availableProviders {
+    final providers = <String>[];
+    if (isOpenAIConfigured) providers.add('OpenAI GPT');
+    if (isGeminiConfigured) providers.add('Google Gemini');
+    return providers;
+  }
+
+  // Setup instructions
+  static String get setupInstructions => '''
+🔧 **HƯỚNG DẪN CẤU HÌNH API**
+
+Để sử dụng AI chatbot, bạn cần một API key từ:
+
+**🔹 Option 1: OpenAI GPT (Recommended)**
+1. Truy cập: https://platform.openai.com/api-keys
+2. Đăng ký/đăng nhập tài khoản
+3. Tạo API key mới
+4. Copy key và dán vào openaiApiKey ở trên
+5. Thay thế: YOUR_OPENAI_API_KEY_HERE
+
+**🔹 Option 2: Google Gemini (Free tier available)**
+1. Truy cập: https://makersuite.google.com/app/apikey
+2. Đăng nhập Google account  
+3. Tạo API key
+4. Copy key và dán vào geminiApiKey ở trên
+5. Thay thế: YOUR_GEMINI_API_KEY_HERE
+
+**⚠️ LưU Ý Bảo Mật:**
+- KHÔNG commit API key lên Git
+- Sử dụng .env file cho production
+- Giữ API key bí mật
+
+**💰 Chi Phí:**
+- OpenAI: ~\$0.002/1K tokens
+- Gemini: Có free tier
+
+Sau khi setup, restart app để áp dụng!
+''';
+} 
