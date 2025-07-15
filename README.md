@@ -18,10 +18,10 @@
 ## 📋 Thông tin đồ án
 
 - **Tên đồ án**: Ứng dụng học ngôn ngữ tiếng Việt tích hợp AI
-- **Sinh viên thực hiện**: [Tên sinh viên]
-- **MSSV**: [Mã số sinh viên]
-- **Lớp**: [Tên lớp]
-- **Khoa**: Công nghệ Thông tin
+- **Sinh viên thực hiện**: [Huỳnh Văn Khuân]
+- **MSSV**: [2205CT0035]
+- **Lớp**: [CT06PM]
+- **Khoa**: Kỹ Thuật Công Nghệ
 - **Trường**: Đại học Hùng Vương TP. Hồ Chí Minh
 - **Năm học**: 2024-2025
 
@@ -209,7 +209,7 @@ Copyright (c) 2024 [Tên sinh viên] - Trường ĐH Hùng Vương
 
 ## 🙏 Lời cảm ơn
 
-- **Thầy/Cô hướng dẫn**: [Tên giảng viên]
+- **Thầy/Cô hướng dẫn**: [TS. Nguyễn Văn Dũng]
 - **Khoa Công nghệ Thông tin** - Trường ĐH Hùng Vương
 - **Flutter Community** và **Firebase Team**
 - **OpenAI** và **Google AI** cho API services
